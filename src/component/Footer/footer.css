@@ -1,0 +1,117 @@
+.footer-section{
+    background-color: #1E2833;
+    background-image: url(../../images/skybluequater.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.footer_conatiner{
+    background-image: url(../../images/circles.png);
+    background-repeat: no-repeat;
+    background-position-x: 33px;
+    background-position-y: 22px;
+    padding: 0px 87px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+.footer-section {
+    background-color: #44931b;
+  }
+  .footer-logodv {
+    padding-top: 9px;
+    margin-bottom: 25px;
+  }
+  .fter-cmpny-dscrtn {
+    width: 30%;
+  }
+  .footer-title {
+    color: #fff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 500;
+    margin-top: 19px;
+    margin-bottom: 32px;
+  }
+  .fter-cmpny-dscrtn > p {
+    color: #dee5ef;
+  }
+  .footer-links {
+    color: #fafafa;
+    font-size: 14px;
+  }
+  .footer-socialwrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .copyrightwrap {
+    display: flex;
+    color: #999999;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+  .footer_addreswrap{
+      width: 17%;
+  }
+  .footer_socialwrap{
+      width: 20%;
+  }
+  .reserves {
+    width: 40%;
+  }
+  .terms {
+    width: 14%;
+  }
+  .privacy {
+    width: 18%;
+  }
+  @media (max-width: 769px){
+    .footer_conatiner{
+      padding: 0px 15px !important;
+    }
+    .footer_addreswrap {
+      width: 80% !important;
+  }
+  .footer_socialwrap {
+    width: 77% ;
+  }
+    .section-five-content{
+        padding: 62px 0px 12px 27px;
+    }
+    .section-five-btn {
+        padding: 12px 28px;
+    }
+    .section-three-subheading>span {
+        font-size: 21px;
+    }
+    .section-seven-content-wrapp {
+        padding: 87px 15px 100px 15px !important;
+    }
+    .section-seven-form-btn {
+        padding: 20px !important;
+        width: 39%;
+    }
+    .footer-wrapper {
+        padding-left: 0px !important; 
+        flex-direction: column;
+    }
+    .fter-cmpny-dscrtn {
+        width: 100% !important;
+        font-size: 16px;
+    }
+    .good12 {
+        padding-left: 1rem;
+        padding-right: 1rem !important;
+    }
+    .footer-socialwrapper {
+        width: 56%;
+    }
+    .section-six>h4 {
+        width: 90% !important;
+    }
+  }
+  
