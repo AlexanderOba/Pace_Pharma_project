@@ -105,21 +105,21 @@ const Company = () => {
           <div className="compnydirectorcards">
             <img src={alex} className="img-fluid" alt="img" />
             <p className="cmpnydirectorname">
-              <img src={arrowright} /> Alex Ikechukwu <img src={arrowleft} />
+              <img src={arrowright} /> Anthony <img src={arrowleft} />
             </p>
             <p className="directorpostion">Executive Director</p>
           </div>
           <div className="compnydirectorcards">
             <img src={ahara} className="img-fluid" alt="img" />
             <p className="cmpnydirectorname">
-              <img src={arrowright} /> Ahara Christopher <img src={arrowleft} />
+              <img src={arrowright} /> Engr.(DR). Kevin Onuchukwu <img src={arrowleft} />
             </p>
             <p className="directorpostion">Managing Director</p>
           </div>
           <div className="compnydirectorcards">
             <img src={chris} className="img-fluid" alt="img" />
             <p className="cmpnydirectorname">
-              <img src={arrowright} /> Ahara Christopher <img src={arrowleft} />
+              <img src={arrowright} /> Pharm Ruth Chibuzor Izu-Okoro<img src={arrowleft} />
             </p>
             <p className="directorpostion"> Managing Director</p>
           </div>
