@@ -11,7 +11,7 @@ import branding from "../../images/branding.png";
 import video from "../../images/video.png";
 import Footer from "../Footer/footer";
 import Newsletter from "./Newsletter";
-import tylenol from "../../images/tylenol.png";
+import tylenol from "../../images/tylenol2.png";
 
 const Services = () => {
   useEffect(() => {
@@ -44,16 +44,18 @@ const Services = () => {
                 Marketing and Sales of Pharmaceutical Products .{" "}
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                nisi egestas volutpat quam cursus malesuada a ac urna. Sed ac id
-                nam accumsan, quam imperdiet sit. Fermentum, gravida neque
-                tempor maecenas morbi urna libero amet, diam. Sed sed eget arcu
-                leo, est tortor, auctor risus. Aenean vestibulum vulputate amet,
-                a at iaculis. Ut morbi pellentesque et mattis tincidunt rhoncus
-                purus quam arcu. Ornare facilisis quis molestie massa. Est urna,
-                donec vitae mollis arcu. Elementum et et egestas tortor in
-                neque, libero. Ullamcorper facilisi dignissim eu sodales. Dolor
-                vulputate egestas congue sed aliquam scelerisque convallis.{" "}
+                Pace Pharma Care represents major brands in Nigeria and across
+                Africa. We explore partnerships that deliver utmost value to our
+                customers. Our partnership starts from the point of securing
+                regulatory approvals for the distribution of products through to
+                positioning the products and ultimately ensuring that it is sold
+                and distributed across all the 36 states of Nigeria and the
+                Federal Capital. We have fit for purpose storage facilities that
+                ensure that pharmaceutical products remain in their best and
+                appropriate states all through their distribution cycle. Our
+                relationship with local pharmaceutical and dispensary outlets
+                ensure that new brands in our portfolio are made available to
+                end users at the shortest possible time.
               </p>
               <span className=" section_3_col2btn">
                 View our Products{" "}
@@ -64,7 +66,7 @@ const Services = () => {
               </span>
             </Col>
             <Col md={6}>
-            {/* <img src={tylenol} className="img-fluid" alt="img" /> */}
+              <img src={tylenol} className="img-fluid" alt="img" /> 
             </Col>
           </Row>
         </Container>
@@ -78,28 +80,19 @@ const Services = () => {
               </div>
             </Col>
             <Col md={6} className="section-about">
-              <div className="section_3 section_3_col2">
+              <div className="section_3">
                 <h6 className="heading_tertiary">RESEARCH</h6>
                 <h1 className="heading_secondary">MARKET RESEARCH</h1>
                 <p className="content_sf servicecontent_sf">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam nisi egestas volutpat quam cursus malesuada a ac urna.
-                  Sed ac id nam accumsan, quam imperdiet sit. Fermentum, gravida
-                  neque tempor maecenas morbi urna libero amet, diam. Sed sed
-                  eget arcu leo, est tortor, auctor risus. Aenean vestibulum
-                  vulputate amet, a at iaculis. Ut morbi pellentesque et mattis
-                  tincidunt rhoncus purus quam arcu. Ornare facilisis quis
-                  molestie massa. Est urna, donec vitae mollis arcu.
-                  <br />
-                  <br /> Elementum et et egestas tortor in neque, libero.
-                  Ullamcorper facilisi dignissim eu sodales. Dolor vulputate
-                  egestas congue sed aliquam scelerisque convallis. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Aliquam nisi
-                  egestas volutpat quam cursus malesuada a ac urna. Sed ac id
-                  nam accumsan, quam imperdiet sit. Fermentum, gravida neque
-                  tempor maecenas morbi urna libero amet, diam. Sed sed eget
-                  arcu leo, est tortor, auctor risus. Aenean vestibulum
-                  vulputate amet, a at iaculis.
+                  Leveraging on our extensive network and relationship with
+                  major distribution outlets across Nigeria, we are able to
+                  conduct market research for new products within a very short
+                  period. Our team of experts with extensive experience in
+                  retail sales and pharmaceuticals provides the bedrock for the
+                  high success rates of our research outcomes. The Nigerian
+                  market is a large space with multiple segments. We will help
+                  you identify the sweet spot and minimise the costs associated
+                  with an uninformed market entrance.
                 </p>
                 <ul className="section-3-list">
                   <li>
@@ -135,15 +128,11 @@ const Services = () => {
                 <h6 className="heading_tertiary">PRODUCTS</h6>
                 <h1 className="heading_secondary">Brand Representation</h1>
                 <p className="content_sf servicecontent_sf">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam nisi egestas volutpat quam cursus malesuada a ac urna.
-                  Sed ac id nam accumsan, quam imperdiet sit. Fermentum, gravida
-                  neque tempor maecenas morbi urna libero amet, diam. Sed sed
-                  eget arcu leo, est tortor, auctor risus. Aenean vestibulum
-                  vulputate amet, a at iaculis. Ut morbi pellentesque et mattis
-                  tincidunt rhoncus purus quam arcu. Ornare facilisis quis
-                  molestie massa. Est urna, donec vitae mollis arcu.Elementum et
-                  et egestas tortor in neque, libero. Ullamcorper facilisi.
+                  Let Pace Pharma Care represent your brand in Nigeria. We
+                  provide the full range of Brand representation services. This
+                  can be customised depending on your unique requirement. We
+                  focus on result and deliver according to your brand
+                  aspirations for the Nigerian and African Market.
                 </p>
               </div>
             </Col>
@@ -159,7 +148,7 @@ const Services = () => {
         <Container>
           <Row>
             <Col md={12} className="service_section5jointcircle">
-             <img src={jointcircle} alt="img" />
+              <img src={jointcircle} alt="img" />
             </Col>
           </Row>
           <Row>
@@ -188,12 +177,12 @@ const Services = () => {
                   title="main_video"
                 ></iframe>
               </div> */}
-              <img src={video} alt="image" className="img-fluid"/>
+              <img src={video} alt="image" className="img-fluid" />
             </Col>
           </Row>
         </Container>
       </div>
-      <Newsletter/>
+      <Newsletter />
       <Footer />
     </div>
   );

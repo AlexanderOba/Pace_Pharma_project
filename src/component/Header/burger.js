@@ -37,7 +37,7 @@ const StyledBurger = styled.div`
 const Burger=()=>{
 
     const [ open, setOpen ] = useState(false)
-
+    console.log(open)
     return(
         <>
             <Navlist open={open} />

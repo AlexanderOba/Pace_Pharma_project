@@ -23,7 +23,7 @@
   font-size: 70px;
   font-weight: 800;
   color: #fff;
-  width: 53%;
+  width: 75%;
 }
 .heading-primary-descr{
     display: block;
@@ -110,14 +110,15 @@ a:link, a:visited{
 }
 .section_3_col2{
   padding-left: 35px;
-  padding-top: 110px;
+  padding-top: 300px;
 }
 .medicineplatewrap{
   padding-top: 100px;
 }
 .section-about{
   padding-bottom: 60px;
-  background-position-y: 196px;
+  padding-top: 161px;
+  background-position-y: 19px;
   background-image: url(../../images/asignline.png);
   background-position-x: center;
   background-repeat: no-repeat;
@@ -344,27 +345,41 @@ color: #757575;
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-bottom: 112px;
+  margin-bottom: 90px;
   background-image: url(../../images/rainfall-lines.png);
   background-repeat: no-repeat;
 
 }
+.compnypgdirectorswrap2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 112px;
+}
+.cmpwrapper2dv{
+  margin-right: 45px;
+}
 .compnydirectorcards{
   border-radius: 11px;
   box-shadow: -1px 10px 20px rgba(0,0,0,.2) ;
+  width: 30%;
 }
 .cmpnydirectorname{
   font-size: 17px;
   color: #333333;
   font-weight: 600;
   margin-top: 20px;
-  margin-bottom: 0px
+  margin-bottom: 0px;
+  cursor: pointer;
 }
 .directorpostion{
   color: #494949;
   font-size: 11px;
   font-weight: 700;
   margin-bottom: 21px;
+}
+.dirtorimg{
+  border-radius: 11px;
 }
 .team_section{
   text-align: center;
@@ -765,9 +780,20 @@ content: "Capsule"
 .compnypgdirectorswrap {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5px;
 }
 .compnypgdirectorswrap>div{
   margin-bottom: 30px;
+  width: 100%
+}
+.compnydirectorcards{
+  width: 100%;
+}
+.cmpwrapper2dv{
+  margin-bottom: 45px;
+}
+.compnypgdirectorswrap2{
+  flex-direction: column;
 }
 .services_section-1>h6 {
   font-size: 13px;
@@ -843,4 +869,38 @@ content: "Capsule"
   border-radius: 10px;
   box-shadow: -1px 10px 20px rgba(0,0,0,.2) ;
 }
+.modalheadersection{
+  flex-direction: column;
+}
+.modalheadersection_col2{
+  width: 100% !important;
+}
+}
+.terminateworkmodalimg{
+  text-align: right;
+}
+.terminateworkmodalimg>img{
+  cursor: pointer;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 656px;
+    margin: 1.75rem auto;
+}
+}
+.modalbody{
+  padding: 21px;
+}
+.modalheadersection{
+  display: flex;
+}
+.modalheadersection_col1{
+  width: 38%;
+  margin-right: 24px;
+}
+.modalheadersection_col2{
+  width: 71%;
+}
+.cmpnmodal{
+  padding: 0px;
 }

@@ -12,18 +12,10 @@ import medicineplate from "../../images/medicineplate.png";
 import bullet from "../../images/bullet-circle.png";
 import arrow_right from "../../images/arrow_right.png";
 import model from "../../images/model.png";
-import kuka from "../../images/kuka.png"
-
-
+import kuka from "../../images/kuka.png";
 
 const Home = props => {
   console.log(props);
-  //   useEffect(() => {
-  //     AOS.init({
-  //       duration: 1500
-  //     });
-  //     AOS.refresh();
-  //   }, []);
 
   return (
     <div>
@@ -33,12 +25,12 @@ const Home = props => {
           <Row>
             <Col sm={12} lg={12} md={6} className="column-1">
               <h2 className="heading-primary">
-                We care about your Health & the Healing
+                The Future is Healthy with Pace Pharma Care
               </h2>
               <p className="heading-primary-descr">
-                Giving you the best quality and approve tablets and capsules you
-                take to heal your ailment is our uttermost desire is our
-                uttermost desire
+                Living healthy into old age is not just a possibility but a
+                matter of choice. We provide a variety of health options to make
+                life and living a healthy and pleasurable experience
               </p>
             </Col>
           </Row>
@@ -51,19 +43,36 @@ const Home = props => {
             <Col md={6}>
               <h6 className="heading_tertiary">ABOUT US</h6>
               <h1 className="heading_secondary">
-                We are a pharmaceutical company, serving you better .{" "}
+                We are a health and lifestyle company dedicated to improving the
+                quality of life of individuals across Africa with immediate
+                focus in Nigeria .{" "}
               </h1>
               <p className="content_sf">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                nisi egestas volutpat quam cursus malesuada a ac urna. Sed ac id
-                nam accumsan, quam imperdiet sit. Fermentum, gravida neque
-                tempor maecenas morbi urna libero amet, diam. Sed sed eget arcu
-                leo, est tortor, auctor risus. Aenean vestibulum vulputate amet,
-                a at iaculis. Ut morbi pellentesque et mattis tincidunt rhoncus
-                purus quam arcu. Ornare facilisis quis molestie massa. Est urna,
-                donec vitae mollis arcu. Elementum et et egestas tortor in
-                neque, libero. Ullamcorper facilisi dignissim eu sodales. Dolor
-                vulputate egestas congue sed aliquam scelerisque convallis.{" "}
+                Pace Pharma Care is involved in market development for global
+                pharmaceutical brands. We also provide storage and distribution
+                facilities making us an emerging powerhouse for pharmaceutical
+                product delivery in Nigeria. Pace Pharma Care has partnered with
+                pharmaceutical manufacturers across the world to import, market
+                and distribute essential medications across Africa with greater
+                focus on Nigeria with 36 states of the federation. We
+                distributes our pharmaceutical / health products to pharmacies
+                spread across Africa, Government and non-governmental agencies,
+                public sector, etc. Our Successful performance includes dozens
+                of approvals, certifications by Government agencies and
+                pharmaceutical regulations and 100% success rate on sole agency
+                / distributorship audit. From identification of medicines
+                requirements shipment, marketing and distribution, our expert
+                staffs take an interdisciplinary approach to deliver expectation
+                – exceeding results. Currently we have Sole distributorship with
+                a major medicine manufacturer in Europe and marketing /
+                distributing tens of thousands of their pharmaceutical products
+                in Nigeria and some West African countries. We are also
+                discussing with some other pharmaceutical companies in Middle
+                East, USA and Canada for sole distributorship in West Africa /
+                Nigeria. Our Leadership team came from multi nationality and
+                diverse cultures with capacity and experiences in various
+                production, managerial, Logistics and leadership expertise with
+                over 100 years cumulative experience.
               </p>
               <div className="medicineplatewrap">
                 <img src={medicineplate} className="img-fluid" alt="img" />
@@ -76,26 +85,26 @@ const Home = props => {
               <div className="section_3 section_3_col2">
                 <h6 className="heading_tertiary">ALL-IN-ONE</h6>
                 <h1 className="heading_secondary">
-                  All your Pharmaceutical needs in one place{" "}
+                All your pharmaceutical needs in one place {" "}
                 </h1>
                 <ul className="section-3-list">
                   <li>
                     <span className="list_bullet">
                       <img src={bullet} />
                     </span>
-                    Search and find all kind of drugs
+                    	Get the best quality Supplements 
                   </li>
                   <li>
                     <span className="list_bullet">
                       <img src={bullet} />
                     </span>
-                    We have drugs for soecial case treatments
+                    	Improve your Sexual life 
                   </li>
                   <li>
                     <span className="list_bullet">
                       <img src={bullet} />
                     </span>
-                    Get notified when your drug is available
+                    Get notified of new products
                   </li>
                 </ul>
                 <span className=" section_3_col2btn">
@@ -106,8 +115,8 @@ const Home = props => {
                   </span>
                 </span>
                 <div className="mobilemedicineplatewrap">
-                <img src={medicineplate} className="img-fluid" alt="img" />
-              </div>
+                  <img src={medicineplate} className="img-fluid" alt="img" />
+                </div>
               </div>
             </Col>
           </Row>
@@ -217,7 +226,7 @@ const Home = props => {
           </Row>
         </Container>
       </div>
-      <Newsletter/>
+      <Newsletter />
       <Footer />
     </div>
   );

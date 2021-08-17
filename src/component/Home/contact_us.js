@@ -81,22 +81,21 @@ const Contact_page = () => {
                     <img src={mail} />
                   </span>
                   <span>
-                  info@pacepharmacares.com enquiries@pacepharmacares.com
+                  info@pacepharmacares.com 
                </span>
                   </li>
                 <li className="listflex">
                   <span className="list_bullet">
                     <img src={phone} />
                   </span>
-                  +23408037100049, 08000017789
+                  +234-701 233 2332, +703 417 7688
                 </li>
                 <li className="listflex">
                   <span className="list_bullet">
                     <img src={address} />
                   </span>
                   <span>
-                  Suite B38, Asset Corp Plaza, Obafemi Awolowo Road, Computer
-                  Village, Ikeja, Lagos.
+                  Prime Mall complex along Mega One Events Way (Orchid Hotel Road), Lekki Lagos
                   </span>
                 </li>
               </ul>

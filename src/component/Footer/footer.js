@@ -38,10 +38,9 @@ const Footer = () => {
             <div className="footer_addreswrap">
               <h4 className="footer-title">Address</h4>
               <p className="footer-links">
-                Suite B38, Asset Corp Plaza, Obafemi Awolowo Road, Computer
-                Village, Ikeja, Lagos.
+              Prime Mall complex along Mega One Events Way (Orchid Hotel Road), Lekki Lagos
               </p>
-              <p className="footer-links">08037100049, 08000017789</p>
+              <p className="footer-links">+234-701 233 2332, +703 417 7688</p>
             </div>
             <div className="footer_socialwrap">
               <h4 className="footer-title">Socials</h4>
