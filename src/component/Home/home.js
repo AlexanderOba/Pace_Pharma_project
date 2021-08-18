@@ -54,7 +54,10 @@ const Home = props => {
                 product delivery in Nigeria. Pace Pharma Care has partnered with
                 pharmaceutical manufacturers across the world to import, market
                 and distribute essential medications across Africa with greater
-                focus on Nigeria with 36 states of the federation. We
+                focus on Nigeria with 36 states of the federation. 
+              </p>
+                <p className="content_sf">
+                We
                 distributes our pharmaceutical / health products to pharmacies
                 spread across Africa, Government and non-governmental agencies,
                 public sector, etc. Our Successful performance includes dozens
@@ -63,7 +66,10 @@ const Home = props => {
                 / distributorship audit. From identification of medicines
                 requirements shipment, marketing and distribution, our expert
                 staffs take an interdisciplinary approach to deliver expectation
-                – exceeding results. Currently we have Sole distributorship with
+                – exceeding results. 
+                </p>
+                <p className="content_sf">
+                Currently we have Sole distributorship with
                 a major medicine manufacturer in Europe and marketing /
                 distributing tens of thousands of their pharmaceutical products
                 in Nigeria and some West African countries. We are also
@@ -122,7 +128,7 @@ const Home = props => {
           </Row>
         </Container>
       </div>
-      <div className="section_4">
+      {/* <div className="section_4">
         <Container>
           <Row className="section_4row">
             <Col md={5}>
@@ -225,7 +231,7 @@ const Home = props => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <Newsletter />
       <Footer />
     </div>

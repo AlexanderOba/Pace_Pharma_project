@@ -144,7 +144,7 @@ const Services = () => {
           </Row>
         </Container>
       </div>
-      <div className="service_section5">
+      {/* <div className="service_section5">
         <Container>
           <Row>
             <Col md={12} className="service_section5jointcircle">
@@ -171,17 +171,17 @@ const Services = () => {
               </div>
             </Col>
             <Col md={6} className="text-center">
-              {/* <div className="videoSection">
+               <div className="videoSection">
                 <iframe
                   // src="https://www.youtube.com/embed/LQ_41yuGttA"
                   title="main_video"
                 ></iframe>
-              </div> */}
+              </div>
               <img src={video} alt="image" className="img-fluid" />
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <Newsletter />
       <Footer />
     </div>

@@ -18,9 +18,7 @@ const Footer = () => {
                 <img src={logo} alt="molecularlogo" />
               </div>
               <p className="">
-                Giving you the best quality and approve tablets and capsules you
-                take to heal your ailment is our uttermost desire is our
-                uttermost desire
+                We help give meaning to life by expanding your options for a healthy and pleasurable life
               </p>
             </div>
             <div>

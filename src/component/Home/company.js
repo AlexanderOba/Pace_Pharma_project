@@ -12,14 +12,12 @@ import chris from "../../images/chris.png";
 import arrowright from "../../images/arrowright.png";
 import arrowleft from "../../images/arrowleft.png";
 import Footer from "../Footer/footer";
-import kingsley from "../../images/kingsley.png";
-import mercy from "../../images/mercy.png";
-import tolu from "../../images/tolu.png";
-import emeka from "../../images/emeka.png";
-import oye from "../../images/oye.png";
-import perela from "../../images/perela.png";
-import igwe from "../../images/igwe.png";
-import lawal from "../../images/lawal.png";
+import building from "../../images/building.jpg";
+import white_board from "../../images/white_board.jpg";
+import primall from "../../images/primall.jpg";
+import tree from "../../images/tree.jpg";
+import chair from "../../images/chair.jpg";
+import tv from "../../images/tv.jpg";
 import chinedu from "../../images/chinedu.jpg";
 import sharique from "../../images/sharique.jpg";
 import closeimg from "../../images/closeimg.png";
@@ -172,7 +170,7 @@ const Company = () => {
           centered={true}
           onHide={closeworkModal}
           show={terminateWorkModal}
-         className="cmpnmodal"
+          className="cmpnmodal"
         >
           <div className="modalbody">
             <div className="terminateworkmodalimg">
@@ -212,14 +210,14 @@ const Company = () => {
             </p>
           </div>
         </Modal>
-        <Modal 
-        centered={true} 
-        onHide={closeruthkModal} 
-        show={ruthWorkModal}
-        style={{
-          paddingLeft: '8px',
-          paddingRight: '8px'
-        }}
+        <Modal
+          centered={true}
+          onHide={closeruthkModal}
+          show={ruthWorkModal}
+          style={{
+            paddingLeft: "8px",
+            paddingRight: "8px"
+          }}
         >
           <div className="modalbody">
             <div className="terminateworkmodalimg">
@@ -267,8 +265,8 @@ const Company = () => {
           onHide={closeanthonyskModal}
           show={anothonysWorkModal}
           style={{
-            paddingLeft: '8px',
-            paddingRight: '8px'
+            paddingLeft: "8px",
+            paddingRight: "8px"
           }}
         >
           <div className="modalbody">
@@ -300,33 +298,39 @@ const Company = () => {
               hospitality and real estate, with various consulting roles from
               project management to operational over-sight and product delivery
               enhancement. A consummate professional passionate with over 23
-              years experience across the globe. Passions encompass design,
-              corporate finance, education, loyalty franchise programs for
-              lifestyle products, day to day management of portfolios along with
-              third party asset management. A pure strategist and developer. His
-              Business management footprint encompasses full P&L structure, bank
-              negotiations, feasibility and product development including
-              complex mergers or acquisitions corporate restructures, bond
-              issuance, corporate capital raising, cash management and
-              structured finance. A process driven professional with vast
-              experience in deal structuring and negotiation. Anthony started
-              his career working with top hotel brands and cruise line operators
-              heading up special projects for Carnival Cruise Lines from ship
-              launch to new product and deployment across the eighty-six-ship
-              fleet. Moving into hospitality and real estate. Anthony has been
-              pivotal in securing funding and coordinating projects from
-              construction to full operations. A strong leader with exceptional
-              communication and an exceptional talent to lead and mentor large
-              teams while possessing strong business and financial management
-              skills with specialized focus on financial structure and control.
-              Anthony studied in Austria at the prestigious Salzburg University
-              where he achieved his Honors in Business Administration then
-              furthered his studies at the Johnson & Wells Campus in Miami where
-              he specialized in hospitality and financial management. Anthony
-              brings to the table a vast international Network of Financial
-              institutions, Investment funds and impact funds well versed in
-              traditional capital raising and Islamic financing instruments with
-              strong networks both locally in Nigeria and Internationally.
+              years experience across the globe.
+            </p>
+            <p>
+              Passions encompass design, corporate finance, education, loyalty
+              franchise programs for lifestyle products, day to day management
+              of portfolios along with third party asset management. A pure
+              strategist and developer. His Business management footprint
+              encompasses full P&L structure, bank negotiations, feasibility and
+              product development including complex mergers or acquisitions
+              corporate restructures, bond issuance, corporate capital raising,
+              cash management and structured finance. A process driven
+              professional with vast experience in deal structuring and
+              negotiation. Anthony started his career working with top hotel
+              brands and cruise line operators heading up special projects for
+              Carnival Cruise Lines from ship launch to new product and
+              deployment across the eighty-six-ship fleet. Moving into
+              hospitality and real estate.
+            </p>
+            <p>
+              Anthony has been pivotal in securing funding and coordinating
+              projects from construction to full operations. A strong leader
+              with exceptional communication and an exceptional talent to lead
+              and mentor large teams while possessing strong business and
+              financial management skills with specialized focus on financial
+              structure and control. Anthony studied in Austria at the
+              prestigious Salzburg University where he achieved his Honors in
+              Business Administration then furthered his studies at the Johnson
+              & Wells Campus in Miami where he specialized in hospitality and
+              financial management. Anthony brings to the table a vast
+              international Network of Financial institutions, Investment funds
+              and impact funds well versed in traditional capital raising and
+              Islamic financing instruments with strong networks both locally in
+              Nigeria and Internationally.
             </p>
           </div>
         </Modal>
@@ -381,8 +385,8 @@ const Company = () => {
           onHide={closeshariqueModal}
           show={shariqueWorkModal}
           style={{
-            paddingLeft: '8px',
-            paddingRight: '8px'
+            paddingLeft: "8px",
+            paddingRight: "8px"
           }}
         >
           <div className="modalbody">
@@ -395,12 +399,13 @@ const Company = () => {
               </div>
               <div className="modalheadersection_col2">
                 <p>
-                  <strong> Sharique Shishler </strong> is an Independent  Director at Pace Pharma Care. He
-                  has over 15 years of global, emerging market and multicultural
-                  experience in Complex Commercial Transaction across United
-                  Kingdom, South East Asia, and Africa.
-                  Sharique worked with Various Multinational Oil and Gas
-                  companies for 15 years holding various senior roles in commercial
+                  <strong> Sharique Aftab </strong> is an Independent  Director
+                  at Pace Pharma Care. He has over 15 years of global, emerging
+                  market and multicultural experience in Complex
+                  Commercial Transaction across United Kingdom, South East Asia,
+                  and Africa. Sharique worked with Various Multinational Oil and
+                  Gas companies for 15 years holding various senior roles in
+                  commercial
                 </p>
               </div>
             </div>
@@ -458,34 +463,28 @@ const Company = () => {
         </div>
         <div className="team_section">
           <h6 className="heading_tertiary">
-            <img src={arrowright} /> TEAM MEMBERS <img src={arrowleft} />{" "}
+            <img src={arrowright} /> Our Office in Pictures <img src={arrowleft} />{" "}
           </h6>
           <div className="teamwrapper">
             <div>
-              <img src={kingsley} className="offsetimg img-fluid" alt="img" />
+              <img src={primall} className="officepic img-fluid" alt="img" />
             </div>
             <div>
-              <img src={mercy} className=" img-fluid" alt="img" />
+              <img src={chair} className="officepic img-fluid" alt="img" />
             </div>
             <div>
-              <img src={tolu} className="offsetimg img-fluid" alt="img" />
-            </div>
-            <div>
-              <img src={emeka} className=" img-fluid" alt="img" />
-            </div>
+              <img src={tv} className="officepic img-fluid" alt="img" />
+            </div> 
           </div>
           <div className="teamwrapper">
-            <div>
-              <img src={oye} className="offsetimg img-fluid" alt="img" />
+          <div>
+              <img src={tree} className="officepic img-fluid" alt="img" />
             </div>
             <div>
-              <img src={igwe} className=" img-fluid" alt="img" />
+              <img src={white_board} className="officepic img-fluid" alt="img" />
             </div>
             <div>
-              <img src={perela} className="offsetimg img-fluid" alt="img" />
-            </div>
-            <div>
-              <img src={lawal} className=" img-fluid" alt="img" />
+              <img src={building} className="officepic img-fluid" alt="img" />
             </div>
           </div>
         </div>

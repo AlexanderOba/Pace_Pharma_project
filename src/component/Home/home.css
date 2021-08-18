@@ -117,7 +117,7 @@ a:link, a:visited{
 }
 .section-about{
   padding-bottom: 60px;
-  padding-top: 161px;
+  padding-top: 285px;
   background-position-y: 19px;
   background-image: url(../../images/asignline.png);
   background-position-x: center;
@@ -149,7 +149,7 @@ margin-bottom: 12px;
   text-transform: uppercase;
 }
 .content_sf{
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 font-weight: 600;
 color: #757575;
@@ -228,7 +228,7 @@ color: #757575;
 
 /*section seven styling*/
 .section-seven{
-  background-color: #fff;
+  background-color: #f9fff5;
 }
 .lightbulb-img{
   background-image: url(../../images/pfizer-img.png);
@@ -387,11 +387,16 @@ color: #757575;
 }
 .teamwrapper{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 28px;
 }
-.offsetimg{
-  padding-top: 85px;
+.officepic{
+  border-radius: 11px;
 }
+.teamwrapper>div{
+  width: 32%;
+}
+
 /* services page styling */
 .services_section-1{
   background-image: url(../../images/wallpapersty.png);
@@ -741,6 +746,15 @@ content: "Capsule"
 }
 /* mobile responsiveness  companypage*/
 @media (max-width: 760px){
+.teamwrapper{
+flex-direction: column
+}
+.teamwrapper>div{
+  width: 100%;
+}
+.officepic{
+  margin-bottom: 23px;
+}
   .toppagepadding {
     padding-top: 40px;
 }
@@ -874,6 +888,12 @@ content: "Capsule"
 }
 .modalheadersection_col2{
   width: 100% !important;
+}
+.section_3_col2btn{
+  margin-bottom: 23px;
+}
+.section-about{
+  padding-top: 85px;
 }
 }
 .terminateworkmodalimg{
