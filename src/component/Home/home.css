@@ -117,11 +117,14 @@ a:link, a:visited{
 }
 .section-about{
   padding-bottom: 60px;
-  padding-top: 133px;
+  padding-top: 284px;
   background-position-y: 19px;
   background-image: url(../../images/asignline.png);
   background-position-x: center;
   background-repeat: no-repeat;
+}
+.marketabout{
+  padding-top: 133px;
 }
 .section-3-list{
   list-style: none;

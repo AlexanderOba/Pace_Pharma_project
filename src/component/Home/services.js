@@ -79,7 +79,7 @@ const Services = () => {
                 <img src={arrowhead} alt="img" />
               </div>
             </Col>
-            <Col md={6} className="section-about">
+            <Col md={6} className="section-about marketabout">
               <div className="section_3">
                 <h6 className="heading_tertiary">RESEARCH</h6>
                 <h1 className="heading_secondary">MARKET RESEARCH</h1>
