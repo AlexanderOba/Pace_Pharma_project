@@ -83,7 +83,7 @@ const Navlist=({open})=>{
         >
           <li>Services</li>
         </NavHashLink>
-        <NavHashLink
+        {/* <NavHashLink
           to="/ourproducts"
           className="homenavlnks"
           activeStyle={{
@@ -93,7 +93,7 @@ const Navlist=({open})=>{
           }}
         >
           <li>Our Products</li>
-        </NavHashLink>
+        </NavHashLink> */}
         <NavHashLink
           to="/Contact_page"
           activeStyle={{
@@ -105,7 +105,7 @@ const Navlist=({open})=>{
         >
           <li>Contact us</li>
         </NavHashLink>
-        <Link to="/ourproducts">
+        <Link to="/">
           <li className="nav-login-btn">Shop Now</li>
         </Link>
       </Ul>

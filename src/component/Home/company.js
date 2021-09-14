@@ -111,19 +111,18 @@ const Company = () => {
         <h6>About Us</h6>
         <h2>Our Company</h2>
         <p>
-          At PacePharmaCare, we offers convenient pharmacy services with a focus
-          on your health and safety. Whether you are a patient or you receive
-          health care elsewhere, we make sure your medication is right for you.
+          At PacePharmaCare, we deliver solutions that make life and living a pleasurale experience. We provide 
+          products that cover every age and gender.
         </p>
       </div>
       <Container fluid className="cmpnypgcontainer">
         <div className="compny_section-2">
           <h6 className="heading_tertiary">MISSION</h6>
           <h1 className="heading_secondary">
-            Our Mission is to Meet you Healthy .{" "}
+            Our Mission is deliver healthcare products that make life and living a pleasurable experience .{" "}
           </h1>
           <p className="compnypgcontent">
-            is to partner with global pharmaceutical companies to provide
+            We partner with global pharmaceutical companies to provide
             medicines that improve the quality of life of people across Africa
             and at an affordable cost. We recognise that the journey to healthy
             living starts with daily choices. Our goal is to provide
@@ -156,13 +155,9 @@ const Company = () => {
           </div>
           <div className="companyteamcontentwrap">
             <p className="compnypgcontent">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              nisi egestas volutpat quam cursus jf malesuada a ac urna. Sed ac
-              id nam accumsan, quam imperdiet sit. Fermentum, gravida neque
-              purus tempor maecenas morbi urna libero amet, diam. Sed sed eget
-              arcu leo, est tortor, auctor risus. purusd Aenean vestibulum
-              vulputate amet, a at iaculis. Ut morbi pellentesque et mattis
-              tincidunt rhoncus ios
+             PacePharmaCare is led by a group of seasoned Professionals with experience in healthcare
+             and other diverse fields of human endeavour. The diversity of the leadership team ensures
+            that we are able to address every aspect of our business with balanced inputs and decisions
             </p>
           </div>
         </div>
@@ -193,8 +188,8 @@ const Company = () => {
               </div>
             </div>
             <p>
-              University of Uyo in 2017. DR. Kevin started his career with Mobil
-              producing Nigeria Unlimited as a Facilities Engineer in 1997. He
+              University of Uyo in 2017. DR. Kevin started his career in the Oil and Gas industry as 
+              a Facilities Engineer in 1997. He
               held several technical, Planning, Supervisory, production
               operations, Maintenance managerial, Safety and leadership
               positions in Novas Scotia Canada, Houston Texas USA and other
@@ -432,8 +427,8 @@ const Company = () => {
           <div className="compnydirectorcards">
             <img src={chris} className="img-fluid" alt="img" />
             <p className="cmpnydirectorname" onClick={ruthsModal}>
-              <img src={arrowright} /> Pharm Ruth Chibuzor Izu-Okoro
-              <img src={arrowleft} />
+              <img src={arrowright} /> Pharm Ruth Chibuzor Izu-Okoro <img src={arrowleft} />
+            
             </p>
             <p className="directorpostion"> Managing Director</p>
           </div>

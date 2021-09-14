@@ -20,14 +20,14 @@ const Newsletter =()=>{
         <div>
           <Container className="section-seven" fluid>
          <Row>
-           <Col md={6} className="lightbulb-img"  data-aos='zoom-in-up'>
-
-           </Col>
+            <Col md={6} className="lightbulb-img"  data-aos='zoom-in-up'>
+              
+           </Col> 
            <Col md={6} className="section-seven-content-wrapp">
              <h4 className="section-seven-heading">
              Subscribe to our newsletter
              </h4>
-             <p className="section-seven-content">Join us to book your next car services</p>
+             <p className="section-seven-content">Join us to get the latest update on health and lifestyle</p>
              <form className="section-seven-form">
                 <Row style={{justifyContent:"space-between", flexWrap:"nowrap"}}>
                   <Col md={6} className="inputcol">

@@ -6,7 +6,7 @@ import Footer from "../Footer/footer";
 import Newsletter from "./Newsletter";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import PatnersSection from "./partenerSection";
+// import PatnersSection from "./partenerSection";
 import section2img from "../../images/section2img.png";
 import medicineplate from "../../images/medicineplate.png";
 import bullet from "../../images/bullet-circle.png";
@@ -36,7 +36,6 @@ const Home = props => {
           </Row>
         </Container>
       </div>
-      <PatnersSection />
       <div className="section-3">
         <Container>
           <Row>

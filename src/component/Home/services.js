@@ -11,7 +11,7 @@ import branding from "../../images/branding.png";
 import video from "../../images/video.png";
 import Footer from "../Footer/footer";
 import Newsletter from "./Newsletter";
-import tylenol from "../../images/tylenol2.png";
+import tylenol from "../../images/yellow_container.png";
 
 const Services = () => {
   useEffect(() => {
@@ -30,7 +30,7 @@ const Services = () => {
         <h6>About Us</h6>
         <h2>Our Services</h2>
         <p>
-          At PacePharmaCare, we offers convenient pharmacy services with a focus
+          At PacePharmaCare, we offer convenient pharmacy services with a focus
           on your health and safety. Whether you are a patient or you receive
           health care elsewhere, we make sure your medication is right for you.
         </p>

@@ -81,7 +81,7 @@ const Contact_page = () => {
                     <img src={mail} />
                   </span>
                   <span>
-                  info@pacepharmacares.com 
+                  info@pacepharmacare.com 
                </span>
                   </li>
                 <li className="listflex">

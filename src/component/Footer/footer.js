@@ -57,10 +57,10 @@ const Footer = () => {
                 </span>
               </div>
               <p className="footer-links">
-                info@pacepharmacares.com 
+                info@pacepharmacare.com 
               </p>
               <p className="footer-links">
-               enquiries@pacepharmacares.com
+               enquiries@pacepharmacare.com
               </p>
             </div>
           </div>
