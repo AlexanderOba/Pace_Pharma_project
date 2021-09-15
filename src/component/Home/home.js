@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./home.css";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Header from "../Header/header";
@@ -14,7 +14,13 @@ import arrow_right from "../../images/arrow_right.png";
 import model from "../../images/model.png";
 import kuka from "../../images/kuka.png";
 
+
+
 const Home = props => {
+
+  useEffect(() => {
+    window.scrollTo(-0, -0);
+  }, []);
   console.log(props);
 
   return (

@@ -187,7 +187,7 @@ const Company = () => {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="modalparagph">
               University of Uyo in 2017. DR. Kevin started his career in the Oil and Gas industry as 
               a Facilities Engineer in 1997. He
               held several technical, Planning, Supervisory, production
@@ -234,7 +234,7 @@ const Company = () => {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="modalparagph">
               She proceeded to deployment in Asaba for NYSC (2009) where she
               promoted actively, the free maternal and child care program
               already in place by the Delta state government in General Hospital
@@ -284,7 +284,7 @@ const Company = () => {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="modalparagph">
               that include controlling and managing large operations from
               development companies, hotel management companies, cruise ships,
               large commercial organizations. Involved in the development and
@@ -295,7 +295,7 @@ const Company = () => {
               enhancement. A consummate professional passionate with over 23
               years experience across the globe.
             </p>
-            <p>
+            <p className="modalparagph">
               Passions encompass design, corporate finance, education, loyalty
               franchise programs for lifestyle products, day to day management
               of portfolios along with third party asset management. A pure
@@ -311,7 +311,7 @@ const Company = () => {
               deployment across the eighty-six-ship fleet. Moving into
               hospitality and real estate.
             </p>
-            <p>
+            <p className="modalparagph">
               Anthony has been pivotal in securing funding and coordinating
               projects from construction to full operations. A strong leader
               with exceptional communication and an exceptional talent to lead
@@ -354,7 +354,7 @@ const Company = () => {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="modalparagph">
               He is an alumnus of the Haas School of Business, University of
               California at Berkeley (US) and of the Edinburgh Business School
               (UK) where he obtained the Certificate of Business Excellence
@@ -404,7 +404,7 @@ const Company = () => {
                 </p>
               </div>
             </div>
-            <p>
+            <p className="modalparagph">
               department serving 9 years in Africa plus 4 years in Thailand &
               Vietnam and 2 years in United Kingdom. Sharique is
               a German Resident, holds a Bachelor of Engineering degree

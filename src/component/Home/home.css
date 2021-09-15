@@ -72,7 +72,7 @@
 }
 a:link, a:visited{
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .section_3{
   text-align: initial;
@@ -750,6 +750,9 @@ content: "Capsule"
 }
 /* mobile responsiveness  companypage*/
 @media (max-width: 760px){
+  .modalparagph{
+    font-size: 14px;
+  }
 .teamwrapper{
 flex-direction: column
 }
@@ -892,6 +895,7 @@ flex-direction: column
 }
 .modalheadersection_col2{
   width: 100% !important;
+  font-size: 14px;
 }
 .section_3_col2btn{
   margin-bottom: 23px;
@@ -924,6 +928,10 @@ flex-direction: column
 }
 .modalheadersection_col2{
   width: 71%;
+  font-size: 14px;
+}
+.modalparagph{
+  font-size: 14px;
 }
 .cmpnmodal{
   padding: 0px;

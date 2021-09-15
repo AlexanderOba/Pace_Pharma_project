@@ -6,6 +6,7 @@ import facebook from "../../images/facebook.png";
 import instagram from "../../images/instagram.png";
 import linkedin from "../../images/linkedin.png";
 import twitter from "../../images/twitter.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -23,9 +24,9 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="footer-title">Company</h4>
-              <p className="footer-links">Home</p>
-              <p className="footer-links">Our Products</p>
-              <p className="footer-links">Our Products</p>
+              <Link to="/"><p className="footer-links">Home</p></Link>
+              <Link to="/company"><p className="footer-links">Company</p></Link>
+              <Link to="/services"><p className="footer-links">Services</p></Link>
             </div>
             <div>
               <h4 className="footer-title">Services</h4>
