@@ -30,7 +30,7 @@ const Services = () => {
         <h6>About Us</h6>
         <h2>Our Services</h2>
         <p>
-          At PacePharmaCare, we offer convenient pharmacy services with a focus
+          At PacePharmaCare, we offer a suite of pharmaceutical services with a focus
           on your health and safety. Whether you are a patient or you receive
           health care elsewhere, we make sure your medication is right for you.
         </p>
@@ -57,13 +57,13 @@ const Services = () => {
                 ensure that new brands in our portfolio are made available to
                 end users at the shortest possible time.
               </p>
-              <span className=" section_3_col2btn">
+              {/* <span className=" section_3_col2btn">
                 View our Products{" "}
                 <span>
                   <img src={arrow_right} alt="pic" />
                   <img src={arrow_right} alt="pic" />
                 </span>
-              </span>
+              </span> */}
             </Col>
             <Col md={6}>
               <img src={tylenol} className="img-fluid" alt="img" /> 

@@ -111,7 +111,7 @@ const Company = () => {
         <h6>About Us</h6>
         <h2>Our Company</h2>
         <p>
-          At PacePharmaCare, we deliver solutions that make life and living a pleasurale experience. We provide 
+          At PacePharmaCare, we deliver solutions that make life and living a pleasurable experience. We provide 
           products that cover every age and gender.
         </p>
       </div>
@@ -119,7 +119,7 @@ const Company = () => {
         <div className="compny_section-2">
           <h6 className="heading_tertiary">MISSION</h6>
           <h1 className="heading_secondary">
-            Our Mission is deliver healthcare products that make life and living a pleasurable experience .{" "}
+            Our Mission is to deliver healthcare products that make life and living a pleasurable experience .{" "}
           </h1>
           <p className="compnypgcontent">
             We partner with global pharmaceutical companies to provide
@@ -155,7 +155,7 @@ const Company = () => {
           </div>
           <div className="companyteamcontentwrap">
             <p className="compnypgcontent">
-             PacePharmaCare is led by a group of seasoned Professionals with experience in healthcare
+             PacePharmaCare is led by a group of seasoned professionals with experience in healthcare
              and other diverse fields of human endeavour. The diversity of the leadership team ensures
             that we are able to address every aspect of our business with balanced inputs and decisions
             </p>
