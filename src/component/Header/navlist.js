@@ -7,7 +7,7 @@ const Ul = styled.ul`
     list-style: none;
     display:flex;
     justify-content: space-around;
-    width: 50%;
+    width: 40%;
     color: #999999;
     font-size: 16px;
     align-items:  baseline;
@@ -105,9 +105,9 @@ const Navlist=({open})=>{
         >
           <li>Contact us</li>
         </NavHashLink>
-        <Link to="/">
+        {/* <Link to="/">
           <li className="nav-login-btn">Shop Now</li>
-        </Link>
+        </Link> */}
       </Ul>
     )
 }

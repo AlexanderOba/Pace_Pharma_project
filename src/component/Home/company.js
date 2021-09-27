@@ -184,7 +184,7 @@ const Company = () => {
                   Administration and a Master’s Degree in Business
                   Administration (MBA) from University of Calabar in 2012 and
                   Doctor of Engineering (D.Eng. Honoris Causa) from
-                </p>
+                </p>c
               </div>
             </div>
             <p className="modalparagph">

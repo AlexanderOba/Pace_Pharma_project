@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .section-1{
+    background-image: url(../../images/Pharmaceutical_2.png);
+}
   .partner-carousel {
     overflow: hidden;
     padding: 0px;

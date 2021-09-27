@@ -63,7 +63,7 @@ const Home = props => {
               </p>
                 <p className="content_sf">
                 We
-                distributes our pharmaceutical / health products to pharmacies
+                distribute our pharmaceutical / health products to pharmacies
                 spread across Africa, Government and non-governmental agencies,
                 public sector, etc. Our Successful performance includes dozens
                 of approvals, certifications by Government agencies and
