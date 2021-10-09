@@ -15,6 +15,7 @@ import tylenol from "../../images/yellow_container.png";
 
 const Services = () => {
   useEffect(() => {
+    window.scrollTo(-0, -0);
     AOS.init({
       duration: 1500
     });

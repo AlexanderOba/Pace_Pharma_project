@@ -15,6 +15,7 @@ import address from "../../images/address.png";
 
 const Contact_page = () => {
   useEffect(() => {
+    window.scrollTo(-0, -0);
     AOS.init({
       duration: 1500
     });
